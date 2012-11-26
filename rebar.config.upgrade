@@ -1,0 +1,2 @@
+{rel_dir, "./rel2"}.
+{sub_dirs, ["rel2"]}.
