@@ -13,7 +13,7 @@ Quick start
 
  *  Make sure you have make and rebar installed and in your `$PATH`
  *  Type `make` to build everything
- *  Start the release with `./rel/elevators/bin/elevators console`
+ *  Start the release with `./rel1/elevators/bin/elevators console`
  *  Make elevators move and notice they stop at each floor
  *  (Exercise: Find bugs, fix them and build a release upgrade)
  *  In the Erlang shell: `release_handler:unpack_release("elevators_2").`
