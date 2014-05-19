@@ -26,8 +26,8 @@ mv src/elevators.app.src.v1 src/elevators.app.src
 mv src/scheduler.erl.v1 src/scheduler.erl
 
 mkdir -p /tmp/elevators
-cp _rel/elevators-1.tar.gz /tmp
-cp _rel/elevators-2.tar.gz /tmp/elevators-2.tar.gz
+cp _rel/elevators/elevators-1.tar.gz /tmp
+cp _rel/elevators/elevators-2.tar.gz /tmp/elevators-2.tar.gz
 
 cd /tmp/elevators
 tar xf /tmp/elevators-1.tar.gz
